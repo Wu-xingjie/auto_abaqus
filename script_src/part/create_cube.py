@@ -1,3 +1,4 @@
+#coding=utf-8
 from abaqus import *
 from abaqusConstants import *
 from caeModules import *
@@ -20,3 +21,5 @@ def create_cube(model, length, width, height):
 
     # 删除临时草图
     del target_model.sketches['__profile__']
+
+create_cube("model1", 23,324,543)
